@@ -8,3 +8,6 @@
 
 # Remove existing files from the repository:
 find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
+# Clone in the current directory
+git clone origin-url .
